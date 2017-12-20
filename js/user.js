@@ -52,6 +52,9 @@ var ManageUsers = function() {
 		   
 		   $("#modalUser").on("hidden.bs.modal", function() {
 				$("#modalUser input").val("");	   
+                $.each($("#modalUser input"), function(index, element) {
+                    element.setCustomValidity("");
+                })
 				ManageUsers.currentuser = new UserEntity(); 
 				ManageUsers.editMode = false;
 		   })
