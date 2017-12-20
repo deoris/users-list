@@ -1,0 +1,82 @@
+.container-fluid {
+    padding-top: 90px;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #424242;
+}
+
+.tooltip-inner {
+    background-color: #424242;
+    border-radius: 2px;
+}
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; /* Adjusts for spacing */
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.modal-content {
+    border-radius: 2px;
+    border: 0px;
+}
+
+.modal-footer {
+    border-top: 0px;
+}
+
+.btn {
+    border: 0px;
+    outline: none;
+    background: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #f4f4f4;
+}
+
+.btn:disabled {
+    color: #666666;
+    background: none;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 14px 8px
+}
+
+.table>tbody>tr:first-child>td {
+    border-top: 0px;
+}
+
+.table>thead>tr>th {
+    font-weight: 500;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
