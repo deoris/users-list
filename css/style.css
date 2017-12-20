@@ -49,12 +49,14 @@ body {
     height: 0px;
     z-index: 999;
     opacity: 0;
+    overflow: hidden;
     transition: all 0.5s ease;
 }
 
 .highSelection.active {
     opacity: 1;
     height: 63px;
+    overflow: visible;
 }
 
 .highSelection .btn-round span {

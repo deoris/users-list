@@ -98,6 +98,8 @@ var Index = function () {
 			}
             
             $(".highSelection").removeClass("active");
+            Index.usersToRemove = new Array();
+            
             if($("#selectAll").is(":checked"))                 
                 $("#selectAll").prop("checked", false);
                 
